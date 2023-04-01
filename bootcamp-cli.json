@@ -1,0 +1,22 @@
+{
+        "TableName": "Music",
+        "AttributeDefinitions": [
+            { "AttributeName": "Artist", "AttributeType": "S" },
+            { "AttributeName": "SongTitle", "AttributeType": "S" }
+          ],
+        "KeySchema": [
+            {
+                "KeyType": "HASH",
+                "AttributeName": "Artist"
+            },
+            {
+                "KeyType": "RANGE",
+                "AttributeName": "SongTitle"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "WriteCapacityUnits": 5,
+            "ReadCapacityUnits": 5
+            
+        }
+}

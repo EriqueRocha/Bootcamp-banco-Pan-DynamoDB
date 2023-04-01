@@ -1,0 +1,14 @@
+{
+    "TableName": "bootcamp",
+    "AttributeDefinitions": [
+        { "AttributeName": "ID", "AttributeType": "N" }
+      ],
+    "KeySchema": [
+      { "AttributeName": "ID"
+        , "KeyType": "HASH" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 5,
+      "WriteCapacityUnits": 5 
+    }
+}
