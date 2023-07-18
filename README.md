@@ -1,9 +1,9 @@
 # Bootcamp-banco-Pan-DynamoDB
 Tive Várias dificuldades em utilizar os comandos no AWS cli, muito provavelmente por utilizar SO Windows.
-para reverter os problemas que tive fiz da seguinte maneira<br> 
-1-criar um usuário, para isso basta cpesquisar por IAM no AWS, localizar usuários nas opções e prosegguir com a criação<br> 
+para reverter os problemas que tive fiz da seguinte maneira:<br> 
+1-criar um usuário, para isso basta pesquisar por IAM no AWS, localizar usuários nas opções e prosegguir com a criação<br> 
 2-vou deixar abaixo os comandos funcionais para Windows<br> 
-2.5-não consegui utilizar os esquemas de de chave diretamente no terminal então optei por utilizar um arquivo JSON local que possua os esquemas<br> 
+2.5-não consegui utilizar os esquemas de chave diretamente no terminal então optei por utilizar um arquivo JSON local que possua os esquemas<br> 
 3- sempre que ver<br> 
 ```
 file://
